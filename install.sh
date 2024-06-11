@@ -83,6 +83,7 @@ scoop-install-packages() {
     # NOTE: 配置是否使用aria2下载，false为禁用，true为启用
     scoop config aria2-enabled true
     scoop install main/neovim
+    scoop install main/yazi
     scoop install main/typst
     scoop install main/lua
     scoop install main/lua-language-server
@@ -121,6 +122,7 @@ scoop-install-packages() {
     # 删除bucket仓库
     scoop bucket rm extras
 
+    scoop install extras/wezterm
     scoop install extras/psreadline
     scoop install extras/wechat
     scoop install extras/qq
