@@ -122,6 +122,7 @@ scoop-install-packages() {
     # 删除bucket仓库
     scoop bucket rm extras
 
+    scoop install extras/notepadplusplus
     scoop install extras/wezterm
     scoop install extras/psreadline
     scoop install extras/wechat
